@@ -1,0 +1,72 @@
+.logo {
+  width: 200px;  
+  margin-bottom: 20px;
+  position: absolute;
+    left: 580px;
+top: 195px;
+}
+.loading-container {
+  text-align: center;
+}
+.h1.product-name {
+  font-size: 15em;
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
+  position: absolute;
+  left: 200px;
+  top: 180px;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+
+  background: linear-gradient(-45deg, #378faa, #83e2e6, #1a8caf, #1497b8);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.product-name {
+  position: absolute;
+  top: 206px; 
+  left: 750px;   
+  font-size: 60px;
+  color: white;
+}
+.tagline {
+  position: absolute;
+  top: 285px; 
+  left: 752px;   
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+}
+.continue-btn {
+  background: linear-gradient(90deg, #59ccd4, #0d75a5);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  top: 350px;
+}
+
+.continue-btn:hover {
+  background: linear-gradient(90deg, #1e90ff, #54b0cf);
+}
